@@ -6,6 +6,7 @@
     padding: 1rem .6rem;
     background: black;
     border-radius: 0 0 10px 10px;
+    display: none;
 }
 .mobile-nav ul{
     display: flex;
@@ -22,4 +23,10 @@ ul .mobile-link{
 }
 .mobile-link:hover{
     color: white;
+}
+
+@media screen and (max-width:765px) {
+    .mobile-nav{
+        display: block;
+    }
 }
