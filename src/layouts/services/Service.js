@@ -7,7 +7,7 @@ function Service() {
     <div className='service_container'>
       <div className='service_container_width' >
 
-        <Header first_word="O" firt_letter="ur" second_word="S" second_letter="ervices" />
+        <Header first_word="O" first_letter="ur" second_word="S" second_letter="ervices" />
         <div className='card_container' >
           <div className='card_row' >
             <div className='service_card' >

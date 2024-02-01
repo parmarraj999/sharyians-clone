@@ -8,3 +8,8 @@
 .App::-webkit-scrollbar{
   display: none;
 }
+.background-black-down{
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(#000 45%,#fff);
+}
