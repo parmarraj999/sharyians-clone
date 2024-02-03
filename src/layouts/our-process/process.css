@@ -1,5 +1,6 @@
 .process-container{
     width: 100%;   
+    overflow-x: hidden;
 }
 .process-width-container{
     width: 85%;

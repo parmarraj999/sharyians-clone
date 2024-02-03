@@ -37,8 +37,13 @@
     background: radial-gradient(#ffe500,#ffa800);
     border-radius: 2.5rem;
     box-shadow: 0px 0px 150px #FFA800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.color-card img{
+    width: 80%;
+}
 .box-1 h1 {
     font-size: 2rem;
     font-weight: 700;
