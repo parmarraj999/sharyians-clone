@@ -1,19 +1,20 @@
 import "./App.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Nav from "./layouts/nav/nav.js";
-import Main from "./layouts/main/main.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Nav from "./component/nav/nav";
+import Menu from "./component/overMenu/menu";
 
 function App() {
 
   return (
     <div className="App">
       <BrowserRouter>
-       <Nav/>
-       <Routes>
-        <Route path="/" element={<Main/>}/>
-       </Routes>
+        <Nav/>
+        <Menu/>
+        <Routes>
+          
+        </Routes>
       </BrowserRouter>
+      
     </div>
   );
 }
